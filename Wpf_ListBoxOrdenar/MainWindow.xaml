@@ -1,0 +1,18 @@
+﻿<Window x:Class="Wpf_ListBoxOrdenar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ListBox Name="lbxMiListBox" Margin="0,0,0,228">
+            <ListBoxItem>Hola caracola</ListBoxItem>
+            <ListBoxItem>Adios caracola</ListBoxItem>
+            <ListBoxItem>121212</ListBoxItem>
+            <ListBoxItem>salamanca</ListBoxItem>
+            <ListBoxItem>_Mi_Clave_Personal</ListBoxItem>
+        </ListBox>
+        <ComboBox Name="cbxOrdenar" SelectedIndex="0" Margin="0,185,0,106" SelectionChanged="cbxOrdenar_SelectionChanged">
+            <ComboBoxItem>Ascendente</ComboBoxItem>
+            <ComboBoxItem>Descendente</ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>
